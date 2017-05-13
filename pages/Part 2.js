@@ -1,0 +1,9 @@
+Part 2
+Get functional
+Part 1 answered the two most fundamental questions about this book: Why Functional? And why JavaScript? Now that you understand what functional pro- gramming brings to JavaScript development, I’ll take it up a few notches. In part 2, I’ll build on and discuss all the practical concepts and techniques you need in order to apply functional programming to solve real-world problems. In this part, you’ll learn what it means to “get functional.”
+Chapter 3 takes a first look at some comprehensive functional programs by using declarative abstractions such as map, reduce, and filter, with the goal of creating code that’s easy to reason about. It also covers the use of recursion as a means of iterating through different forms of data in a functional style.
+Chapter 4 takes the concepts from chapter 3 and applies them to constructing function pipelines to streamline development and write in a point-free style. You’ll learn that the key to building functional code is breaking up complex tasks into small, independent components that can be glued back together to form whole solutions via the principle of compositionality. The result is a modular and reus- able code base.
+Finally, in chapter 5 you’ll learn fundamental design patterns that combat the increasing complexity of your applications and error handling. Functional composition is made more reliable and robust with abstract data types like func- tors and monads, which provide a layer of abstraction that makes your code fault-tolerant and resilient to exceptional conditions.
+<p className="pag">Page 56</p>
+Applying the techniques discovered in part 2 will completely transform the way you code JavaScript. Also, this sets the stage for part 3, which deals with applying functional programming techniques to solve more-complex JavaScript problems involving asyn- chronous data and events.
+<p className="pag">Page 57 </p>
