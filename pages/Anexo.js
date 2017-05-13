@@ -1,12 +1,12 @@
-Page 235 - 
+Page 235 
 
 Chapter appendix
 JavaScript libraries used in this book
 Functional JavaScript libraries
 Because JavaScript isn’t a pure functional language, you have to rely on the help of third-party libraries that you can load into your project to emulate features, such as currying, composition, memoization, lazy evaluation, immutability, and so on, that are core in purer functional languages like Haskell. The libraries eliminate the need for you to implement the features yourself, so that you can focus on writing your business logic functions and delegate the orchestration of this code to these libraries. This section lists the functional libraries used throughout this book. These libraries are designed to do the following:
 ■	Fill in any gaps of standard JavaScript environments by providing additional language constructs and high-level utility functions that encourage you to write code using simple functions
-■	When using JavaScript on the client, ensure that the functionality is consis- tent across browser vendors
-■	Abstract out the internals of functional programming techniques like curry- ing, composition, partial evaluation, lazy evaluation, and others in a consis- tent manner
+■	When using JavaScript on the client, ensure that the functionality is consistent across browser vendors
+■	Abstract out the internals of functional programming techniques like currying, composition, partial evaluation, lazy evaluation, and others in a consistent manner
 For each library, I’ll include installation instructions for both browser and server (Node.js) environments.
 Lodash
 This utility library is a fork of Underscore.js (http://underscorejs.org/), which has been widely adopted by functional JavaScript programmers in the past, and it’s a
@@ -19,14 +19,14 @@ dependency in important JavaScript frameworks like Backbone.js. Lodash continues
 -	Browser: <script src="lodash.js"></script
 -	Node: $npm i --save lodash
 Ramda
-This utility library is designed specifically for functional programming, which facili- tates the creation of function pipelines. All of Ramda’s functions are immutable and side effect-free. In addition, all the functions have automatic currying, and its param- eters are arranged to be convenient for currying and composition. Ramda also con- tains property lenses, which are used in this book to read/write the properties of objects in an immutable manner.
+This utility library is designed specifically for functional programming, which facilitates the creation of function pipelines. All of Ramda’s functions are immutable and side effect-free. In addition, all the functions have automatic currying, and its parameters are arranged to be convenient for currying and composition. Ramda also contains property lenses, which are used in this book to read/write the properties of objects in an immutable manner.
 ■	Version: 0.18.0
 ■	Home page: http://ramdajs.com/
 ■	Installation:
 -	Browser: <script src="ramda.js"></script>
 -	Node: $npm install ramda
 RxJS
-The Reactive Extensions for JavaScript implement a paradigm known as reactive pro- gramming, which combines the best ideas of the observer pattern, iterator pattern, and functional programming to yield a library that facilitates writing asynchronous and event-based programs.
+The Reactive Extensions for JavaScript implement a paradigm known as reactive programming, which combines the best ideas of the observer pattern, iterator pattern, and functional programming to yield a library that facilitates writing asynchronous and event-based programs.
 ■	Version: 4.0.7
 ■	Parent project home page: http://reactivex.io/
 ■	Home page: https://github.com/Reactive-Extensions/RxJS
@@ -37,7 +37,7 @@ Page 237
 Other libraries used
 This book also uses nonfunctional libraries to take care of some additional aspects of software development like logging, testing, and static code analysis.
 Log4js
-Log4JavaScript is a client-side logging framework that follows the same “Log4X” design of packages as other languages, such as Log4j (Java), log4php (PHP), and oth- ers. This library is commonly used for enterprise-level logging, which is much more powerful than the typical console.log.
+Log4JavaScript is a client-side logging framework that follows the same “Log4X” design of packages as other languages, such as Log4j (Java), log4php (PHP), and others. This library is commonly used for enterprise-level logging, which is much more powerful than the typical console.log.
 ■	Version: 1.0.0
 ■	Home page: http://stritti.github.io/log4js/
 ■	Installation:
@@ -70,12 +70,12 @@ Code coverage measures the percentage of lines that execute through your code in
 -	Browser: <script src="blanket.js"></script>
 -	Node: $npm instali blanket
 JSCheck
-JSCheck is a specification-driven (property-based) testing library for JavaScript written by Douglas Crockford and inspired by Haskell’s QuickCheck project. From the descrip- tion of the properties of a function, it generates random test cases that attempt to prove those properties.
+JSCheck is a specification-driven (property-based) testing library for JavaScript written by Douglas Crockford and inspired by Haskell’s QuickCheck project. From the description of the properties of a function, it generates random test cases that attempt to prove those properties.
 ■	Home page: www.jscheck.org/
 ■	Installation:
 -	Browser: <script src="jscheck.js"></script>
 -	Node: $npm instali jscheck
-Page 239 - Chapter index
+Page 239 Chapter index
 Symbols
 () operator 39
 @@iterator property 229
@@ -117,7 +117,7 @@ asynchronous applications, reacting to complexity of 19-21
 asynchronous behavior 211
 asynchronous events and data 205-234
 challenges of asynchronous code 206-213
-creating temporal depen- dencies among functions 207-208
+creating temporal dependencies among functions 207-208
 falling into callback pyramid 208-210
 using continuation-passing style 210-213
 lazy data generation 224-229
@@ -159,7 +159,7 @@ chaining
 functions 60-70
 gathering resuits with _.reduce 65-68
 lambda expressions 61-62
-removing unwanted ele- menti with _.filter 68-70
+removing unwanted elementi with _.filter 68-70
 transforming data with _.map 62-64
 methods 59-60
 change event 232
@@ -172,8 +172,8 @@ cleanInput function 107, 162
 closures, practical applications of 50-53
 emulating blocked-scope variables 52-53
 emulating private variables 50-52
-making asynchronous server- side calls 52
-code coverage, measuring effec- tiveness through 172-179
+making asynchronous serverside calls 52
+code coverage, measuring effectiveness through 172-179
 measuring complexity of functional code 177
 measuring effectiveness of testing functional code 173-177
 code examples 29
@@ -199,7 +199,7 @@ context stack 181, 211
 continuation-passing style. See CPS
 control flow
 managing with functional combinators 112-116
-alternation (OR- combinator) 113-114
+alternation (ORcombinator) 113-114
 fork (join) combinator 115-116
 identity (I-combinator) 112
 sequence (S-combinator) 114-115
@@ -218,7 +218,7 @@ csv function 162
 current continuations 211
 curried function evaluation 92-98
 emulating function factories 95-97
-implementing reusable func- tion templates 97-98
+implementing reusable function templates 97-98
 curry function 160 curry2 function 95 currying 12
 function context stack and 183-186
 memorization and 196
@@ -234,7 +234,7 @@ Date.now() function 9, 193
 DB object 164, 196
 db variable 11
 declarative function chains 71-74
-declarative, functional program- ming as 7-9
+declarative, functional programming as 7-9
 decodeURIComponent function 140
 decomposition of complex tasks 16-18
 Deferred object 217
@@ -254,7 +254,7 @@ E
 echo function 6
 ECMAScript 24
 effectiveness, measuring through code coverage 172-179
-measuring complexity of func- tional code 177
+measuring complexity of functional code 177
 measuring effectiveness of testing functional code 173-177
 Either monad overview 162-164
 recovering from failure using 137-141
@@ -274,7 +274,7 @@ encapsulated types 112
 equational correctness 13
 error callbacks 209, 217
 error-handling 118-121
-problems with null- checking 121
+problems with nullchecking 121
 reasons not to throw exceptions 119-120
 with monads 132-141
 consolidating null checks with Maybe 132-137
@@ -323,7 +323,7 @@ fork function 161
 for...of loop 225-226
 FP (functional programming) as declarative 7-9
 benefits of 16-22
-encouraging decomposi- tion of complex tasks 16-18
+encouraging decomposition of complex tasks 16-18
 processing data using fluent chains 18-19
 reacting to complexity of asynchronous applications 19-21
 importance of 5 overview of 5-7
@@ -361,16 +361,16 @@ call-when-needed strategy, implementing 191 -199
 execution of functions 181 -187
 challenges of recursive code 186-187 currying and function context stack 183-186 deferring using lazy evaluation 188-191
 memorization
-applying to recursive calls 197-199 currying and 196 decomposing to maximize 196-197 memoizing computation- ally intensive functions 192-195 overview 192
+applying to recursive calls 197-199 currying and 196 decomposing to maximize 196-197 memoizing computationally intensive functions 192-195 overview 192
 recursion and tail-call optimization 199-203
-functional programming. See FP functional reactive program- ming. See FRP functional references 37
+functional programming. See FP functional reactive programming. See FRP functional references 37
 Page 242
 
 functions
-as data 75-76 as first-class citizens 39-40 chaining 60-70 gathering results with _.reduce 65-68 lambda expressions 61-62 removing unwanted ele- menti with _.filter 68-70 transforming data with _.map 62-64 compatible 88-92 arity and 89-92 type-compatible functions 88-89 creating temporal dependen- cies among 207-208 curried function
+as data 75-76 as first-class citizens 39-40 chaining 60-70 gathering results with _.reduce 65-68 lambda expressions 61-62 removing unwanted elementi with _.filter 68-70 transforming data with _.map 62-64 compatible 88-92 arity and 89-92 type-compatible functions 88-89 creating temporal dependencies among 207-208 curried function
 evaluation 92-98 emulating function factories 95-97 implementing reusable function templates 97-98
 delayed, binding into 101-102
-function methods 44 higher-order functions 40-42 types of function invocation 43 See also functional optimiza- tions
+function methods 44 higher-order functions 40-42 types of function invocation 43 See also functional optimizations
 functions as data 76 functors 124-127 Future object 214
 G
 g function 89 generator function 224 Generator object 228 generators, recursion and 226-228
@@ -381,7 +381,7 @@ h1 function 6 half function 129 Haskell library 85, 167 head function 108 hetero
 I
 I-combinator 112 identity (I-combinator) 112 identity function 123, 126, 131, 149
 if-else blocks 175, 177 if-else conditions 19, 68, 114, 215
-IIFE (immediately invoked func- tion expression) 51 immutability 3-4, 9, 21 immutable data, preserving 15-16
+IIFE (immediately invoked function expression) 51 immutability 3-4, 9, 21 immutable data, preserving 15-16
 imperative code 72 imperative programming 7-8,
 71
 impure code
@@ -426,7 +426,7 @@ null-checking overview 215 problems with 121 Number type 100
 O
 object literal interface 33 Object.freeze() function 34, 36 objects
 managing state of 31-32 treating as values 32-34
-observables 21 observer pattern 236 one-line expressions 62 OOP (object-oriented program- ming), vs. functional programming 24-38 deep-freezing moving parts 34-37
+observables 21 observer pattern 236 one-line expressions 62 OOP (object-oriented programming), vs. functional programming 24-38 deep-freezing moving parts 34-37
 managing state of JavaScript objects 31-32 navigating and modifying object graphs with lenses 37-38 treating objects as values 32-34
 operator function 40 OR (||) operator 189 OR-combinator 113-114 orElse function 140 output type 86
 P
@@ -488,7 +488,7 @@ temporal coupling 207
 temporal dependencies, among functions, creating 207-208
 terminating condition 77, 79
 testing 153-179
-challenges of testing impera- tive programs 155-158
+challenges of testing imperative programs 155-158
 dependency on shared resources leads to inconsistent results 157
 difficulty identifying and decomposing tasks 155-157
 predefined order of execution 158 functional programming's influence on unit tests 154-155 measuring effectiveness through code coverage 172-179
@@ -530,7 +530,7 @@ undefined argument 100
 Undesrscore.js project 62, 235
 _.uniq function 72
 unit function 130
-unit tests, functional program- ming’s influence on 154-155
+unit tests, functional programming’s influence on 154-155
 units of modularity 155
 units of work 16, 24, 38
 unresolved status 214
@@ -562,7 +562,7 @@ zipCode function 33, 45
 Functional Programming in JavaScript
 Luis Atencio
 In complex web applications, thè low-level details of your JavaScript code can obscure thè workings of thè System as a whole. As a coding style, functional programming (FP) promotes loosely coupled relationships among thè components of your application, makingthe big picture easierto design, communicate, and maintain.
-Functional Programming in JavaScript teaches you techniques to improve your web applications—their extensibility, modularity, reusability, and testability, as well as their performance. This easy-to-read book uses concrete examples and clear explana- tions to show you how to use functional programming in reai life. If you’re new to functional programming, you’ll appreciate this guide’s many insightful comparisons to imperative or object- oriented programming that help you understand functional design. By thè end, you’ll think about application design in a fresh new way, and you may even grow to appreciate monads!
+Functional Programming in JavaScript teaches you techniques to improve your web applications—their extensibility, modularity, reusability, and testability, as well as their performance. This easy-to-read book uses concrete examples and clear explanations to show you how to use functional programming in reai life. If you’re new to functional programming, you’ll appreciate this guide’s many insightful comparisons to imperative or objectoriented programming that help you understand functional design. By thè end, you’ll think about application design in a fresh new way, and you may even grow to appreciate monads!
 What’s Inside
 ■ High-value FP techniques for real-world uses ■ Using FP where it makes thè most sense ■ Separating thè logie of your System from implementation details
 ■ FP-style error handling, testing, and debugging ■ All code samples use JavaScript £S6 (£S 2015)
